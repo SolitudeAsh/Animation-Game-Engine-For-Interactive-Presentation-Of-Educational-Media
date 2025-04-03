@@ -1,0 +1,74 @@
+[gd_scene load_steps=2 format=3 uid="uid://ddo78jctvvji2"]
+
+[ext_resource type="Script" path="res://Main.gd" id="1_2c5tq"]
+
+[node name="Main" type="Node2D"]
+position = Vector2(424, 252)
+script = ExtResource("1_2c5tq")
+
+[node name="UI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 2
+
+[node name="reset_button" type="Button" parent="UI"]
+layout_mode = 0
+offset_left = 75.0
+offset_top = -100.0
+offset_right = 177.0
+offset_bottom = -69.0
+text = "Reset Board"
+
+[node name="check_button" type="Button" parent="UI"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.85
+anchor_top = 5.45
+anchor_right = 1.85
+anchor_bottom = 5.45
+offset_left = -135.0
+offset_top = -319.0
+offset_right = -18.0
+offset_bottom = -288.0
+text = "Check Validity"
+
+[node name="status_label" type="Label" parent="UI"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 2.212
+anchor_top = 6.25
+anchor_right = 2.212
+anchor_bottom = 6.25
+offset_left = -159.48
+offset_top = -504.0
+offset_right = 127.52
+offset_bottom = -481.0
+mouse_filter = 0
+text = "Select a board size and place queens!"
+
+[node name="move_label" type="Label" parent="UI"]
+layout_mode = 0
+offset_left = 342.0
+offset_top = -250.0
+offset_right = 382.0
+offset_bottom = -227.0
+text = "Moves:0"
+
+[node name="name_field" type="LineEdit" parent="UI"]
+layout_mode = 0
+offset_left = -342.0
+offset_top = -187.0
+offset_right = -274.938
+offset_bottom = -156.0
+
+[node name="size_field" type="LineEdit" parent="UI"]
+layout_mode = 0
+offset_left = -222.0
+offset_top = -186.0
+offset_right = -154.938
+offset_bottom = -155.0
+
+[connection signal="pressed" from="UI/reset_button" to="." method="_on_reset_button_pressed"]
+[connection signal="pressed" from="UI/check_button" to="." method="_on_check_button_pressed"]

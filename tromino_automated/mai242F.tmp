@@ -1,0 +1,44 @@
+[gd_scene load_steps=2 format=3 uid="uid://bum372gobaiv8"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_tspv0"]
+
+[node name="Main" type="Node2D"]
+position = Vector2(496, 436)
+script = ExtResource("1_tspv0")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="SpeedLabel" type="Label" parent="CanvasLayer"]
+offset_left = 472.0
+offset_top = 7.0
+offset_right = 565.0
+offset_bottom = 30.0
+text = "Speed:- 1.0x"
+
+[node name="ResetButton" type="Button" parent="CanvasLayer"]
+anchors_preset = -1
+anchor_left = 0.428
+anchor_top = 0.091
+anchor_right = 0.428
+anchor_bottom = 0.091
+offset_left = 566.944
+offset_top = -52.968
+offset_right = 617.944
+offset_bottom = -18.968
+text = "Reset"
+
+[node name="SpeedSlider" type="HSlider" parent="CanvasLayer"]
+anchors_preset = -1
+offset_left = 709.0
+offset_top = 11.0
+offset_right = 795.0
+offset_bottom = 27.0
+min_value = 0.1
+max_value = 20.0
+value = 0.1
+
+[node name="InputNField" type="LineEdit" parent="CanvasLayer"]
+offset_left = 5.0
+offset_top = 5.0
+offset_right = 156.0
+offset_bottom = 36.0
