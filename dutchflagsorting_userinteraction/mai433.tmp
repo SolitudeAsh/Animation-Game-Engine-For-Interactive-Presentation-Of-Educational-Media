@@ -1,0 +1,61 @@
+[gd_scene load_steps=5 format=3 uid="uid://k7fvxexr3i8g"]
+
+[ext_resource type="Script" path="res://Main.gd" id="1_l2ixm"]
+[ext_resource type="Theme" uid="uid://dlpttrc1ywrj4" path="res://default_theme.tres" id="2_ri17m"]
+[ext_resource type="Script" path="res://UI.gd" id="3_b5lwi"]
+[ext_resource type="Script" path="res://ArrayController.gd" id="4_wtqkp"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_l2ixm")
+metadata/ColorElements = Color(0, 0, 0, 1)
+
+[node name="ColorArray" type="Node2D" parent="."]
+
+[node name="ColorElements" type="ColorRect" parent="ColorArray"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="UI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_top = 3.0
+offset_right = 1154.0
+offset_bottom = 647.0
+theme = ExtResource("2_ri17m")
+script = ExtResource("3_b5lwi")
+
+[node name="CheckButton" type="Button" parent="UI"]
+layout_mode = 0
+offset_left = 235.0
+offset_top = 152.0
+offset_right = 341.0
+offset_bottom = 183.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+text = "Check Solution"
+
+[node name="ResetButton" type="Button" parent="UI"]
+layout_mode = 0
+offset_left = 717.0
+offset_top = 502.0
+offset_right = 793.0
+offset_bottom = 510.0
+text = "New Random Array
+"
+
+[node name="ScoreLabel" type="Label" parent="UI"]
+layout_mode = 0
+offset_left = 671.0
+offset_top = 16.0
+offset_right = 856.0
+offset_bottom = 44.0
+text = "Moves: 0"
+
+[node name="ResultLabel" type="Label" parent="UI"]
+layout_mode = 0
+offset_left = 65.0
+offset_top = 425.0
+offset_right = 211.0
+offset_bottom = 448.0
+
+[node name="ArrayController" type="Node" parent="."]
+script = ExtResource("4_wtqkp")
