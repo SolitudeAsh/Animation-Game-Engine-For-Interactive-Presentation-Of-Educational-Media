@@ -1,3 +1,41 @@
+Project Overview  
+
+This project introduces an Animation Game Engine designed to enhance educational content delivery by making learning interactive, engaging, and adaptive. Built using the Godot Engine and GDScript, the system enables educators to create visually rich and interactive learning materials without requiring extensive programming expertise.  
+
+Features  
+- Keyframe-based animations for creating dynamic educational content  
+- Real-time quizzes and feedback for interactive learning  
+- Learner data analysis to track engagement and progress  
+- Cross-platform support with Windows (.exe) export, and planned support for Ubuntu (Linux) and Android  
+- Lightweight and scalable design for accessibility across different devices  
+
+Technologies Used  
+- Godot Engine for animation and interactivity  
+- GDScript for scripting and logic implementation  
+- CSV data storage for capturing and analyzing user interactions  
+- Cross-platform export support  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Detailed Instructions on how to use our project's source code
 
 
