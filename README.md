@@ -6,7 +6,7 @@ Features
 - Keyframe-based animations for creating dynamic educational content  
 - Real-time quizzes and feedback for interactive learning  
 - Learner data analysis to track engagement and progress  
-- Cross-platform support with Windows (.exe) export, and planned support for Ubuntu (Linux) and Android  
+- Cross-platform support with Windows (.exe) export, and planned support for Ubuntu (Linux) and Android in the future.
 - Lightweight and scalable design for accessibility across different devices  
 
 Technologies Used  
