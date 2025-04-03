@@ -12,7 +12,8 @@ Features
 Technologies Used  
 - Godot Engine for animation and interactivity  
 - GDScript for scripting and logic implementation  
-- CSV data storage for capturing and analyzing user interactions  
+- CSV data storage for capturing and analyzing user interactions
+- ML Models for Data Analysis 
 - Cross-platform export support  
 
 
