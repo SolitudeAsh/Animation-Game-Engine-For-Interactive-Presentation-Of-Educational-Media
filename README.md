@@ -56,3 +56,22 @@ Detailed Instructions on how to use our project's source code
 		2. Open the .exe file of it and play the game. For userdefined same as above , just that here the path is set to "C:\Users\username\filename.csv". Here also you do not need to create the .csv file, it will automatically be created and the values are stored as soon as you finish solving the algorithm. 
 		
 		3. Now after you have played it a couple of times, you can see the .csv file to have a couple of entries and stats pertaining to the player. Now, open the notebooks folder and go to new notebooks, there you will find a couple of .ipynb files related to the algorithm that you have used to learn using the .exe files. Open them and make sure the path of the .csv files are the same as that of the "C:\Users\username\filename.csv" . Now run the cells and you will get the predictions and the performance 	report & chart for your data(scores).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Do find our paper in the link given:- http://www.ijacscc.iraj.in/paper_detail.php?paper_id=21903&name=Animation_Game_Engine_for_Interactive_Presentation_of_Educational_Media
